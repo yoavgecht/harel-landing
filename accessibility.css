@@ -1,0 +1,180 @@
+/* CSS Document */
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
+#accessIcon{
+	position:fixed;
+	width: 30px;
+	height: 30px;
+	right:0px;
+	top:0px;
+	z-index:100;
+}
+
+#accessMenu{
+	position: fixed;
+	width:250px;
+	height:170px;
+	right:10px;
+	top:35px;
+	z-index:100;
+	display:none;
+	background-color:#fff;
+	border:1px solid #143d8d;
+}
+
+#accessMenu ul {
+    list-style: none;
+    float: left;
+	margin: 0 auto;
+}
+
+#accessMenu ul li {
+   list-style: none;
+   float: left;
+   margin: 0 auto;
+}
+
+.accessMenuItem{
+	position: relative;
+	width:250px;
+	height:40px;
+	float:left;
+	font-family: 'Open Sans Hebrew Condensed', Helvetica, sans-serif;
+	font-weight:400;
+	font-size: 14px;
+	line-height:40px;
+	text-align:right;
+	direction:rtl;
+	color:#000;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #143d8d;	
+}
+
+#Accessibility_Statement{
+	position: relative;
+	width:900px;
+	height:630px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	background-color:#fff;
+	z-index:100;
+	display:none;
+	border:1px solid #143d8d;
+}
+
+#AccessClose{
+	position: absolute;
+	width:40px;
+	height:40px;
+	right:-20px;
+	top:-20px;
+	z-index:2;
+}
+
+.AccessibilityText{
+	position: absolute;
+	width:850px;
+	height:650px;
+	right:20px;
+	top:0px;
+	direction:rtl;
+	overflow:auto;
+}
+
+.AccessibilityTitle{
+	font-family: 'Open Sans Hebrew Condensed', Helvetica, sans-serif;
+	font-weight:400;
+	font-size: 36px;
+	line-height:38px;
+	text-align:right;
+	direction:rtl;
+	color:#143d8d;
+
+}
+.AccessibilitySubTitle{
+	font-family: 'Open Sans Hebrew Condensed', Helvetica, sans-serif;
+	font-weight:400;
+	font-size: 24px;
+	line-height:26px;
+	text-align:right;
+	direction:rtl;
+	color:#143d8d;
+
+}
+
+.AccessibilityRegText{
+	font-family: 'Open Sans Hebrew Condensed', Helvetica, sans-serif;
+	font-weight:400;
+	font-size: 16px;
+	line-height:18px;
+	text-align:right;
+	direction:rtl;
+	color:#000;
+
+}
+
+
+.AccessibilityRegText ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+
+.AccessibilityRegText ul li{
+	margin-left: 20px;
+}
+
+.contrast-hight {filter: invert(1);-webkit-filter: invert(1);-moz-filter: invert(1);-o-filter: invert(1);-ms-filter: invert(1);}
+.contrast-low {
+	filter: grayscale(100%);
+	/* This is for Firefox 3.5+, Firefox mobile */
+	filter: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="grayscale"><feColorMatrix type="matrix" values="0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0"/></filter></svg>#grayscale'); /* Firefox */
+	filter: gray; /* IE 6-9 */
+	-webkit-filter: grayscale(1); /* Older webkit versions */
+	-webkit-filter: grayscale(100%);
+	-moz-filter : grayscale (100%); /* Gecko-Based Browsers, Mozilla Firefox */
+	-ms-filter : grayscale(100%);
+	-o-filter : grayscale(100%); /* Opera */
+}
+
+#VideoOver{
+	position:fixed;
+	width:100%;
+	height:650px;
+	top:0px;
+	left:0px;
+	z-index:50;
+	background-image: url(images/over_bg.png);
+	background-repeat: repeat;
+	display:none;
+}
+
+
+
+#errors{
+	color:transparent;	
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+.noText{
+	color: transparent;
+	overflow:hidden;
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select:none; 
+	user-select:none;
+	-o-user-select:none;
+}
+
